@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    scroll-behavior: smooth;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.upp
+
+.game-link {
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+.upp {
+    font-size: 60px;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+}
+
+.upp:hover {
+    transform: scale(1.5);
+    transition: 230ms ease-in-out;
+    filter: drop-shadow(0px 1px 5px white)
+}
+
+.upp:not(:hover) {
+    transform: scale(1);
+    transition: 130ms ease-in-out;
+}
